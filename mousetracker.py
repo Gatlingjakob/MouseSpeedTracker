@@ -58,5 +58,6 @@ def mouseSpeed():
     for event in pygame.event.get():
         pass            
 
+#Infamous infinite loop
 while True:
     mouseSpeed()
