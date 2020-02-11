@@ -51,7 +51,10 @@ def mouseSpeed():
 
     # Get distance/time (pixels/seconds)
     mouseSpeedUnits = math.ceil(distance/deltaZ)
+    
+    # Store new mouse speed data
     mouseLog.append(mouseSpeedUnits)
+    
     # Print out the speed
     print ("I've traveled {0} Mouse Speed Units in the last {1} seconds".format(mouseSpeedUnits, waitingTime))
     average = Average(mouseLog)
