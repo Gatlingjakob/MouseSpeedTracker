@@ -1,14 +1,15 @@
 import pygame, time, math
 
+#We will make a window with pygame to simulate a browser window
 #Pygame setup
 pygame.init()
-size = width, height = 1000, 1000
+size = width, height = 300, 300
 speed = [2, 2]
 black = 0, 0, 0
 screen = pygame.display.set_mode(size)
 
 #Amount of time between start and end coordinates are logged
-waitingTime = 5
+waitingTime = 2
 mouseLog = []
 
 def Average(lst): 
